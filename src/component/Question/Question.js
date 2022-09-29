@@ -3,8 +3,10 @@ import './Question.css'
 
 const Question = () => {
     return (
-        <div>
-            
+        <div className='all-Question'>
+              <div className="first-question">
+                <h1>How does react Work?</h1>
+              </div>
         </div>
     );
 };
