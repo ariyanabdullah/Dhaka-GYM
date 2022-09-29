@@ -30,11 +30,34 @@
     }
 }
 
+/* 
 @media only screen and (max-width:672px) and (min-width: 300px) {
     .exercise {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px 0px;
         margin-bottom: 30px;
+    }
+} */
+
+@media only screen and (max-width:672px) and (min-width: 300px) {
+    .exercise {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px 0px;
+        margin-bottom: 30px;
+    }
+
+    .exercise img {
+        width: 100%;
+    }
+
+    .main-container {
+        grid-template-columns: 1fr !important;
+
+    }
+
+    .exercise {
+        margin: 10px 20px;
     }
 }
