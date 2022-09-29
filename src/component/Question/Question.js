@@ -5,7 +5,7 @@ const Question = () => {
     return (
         <div className='all-Question'>
 
-          <h1 style={{marginLeft:'3%' ,marginRight:'3%' ,textAlign:'center'}}> Question And Answer About React JS </h1>
+          <h1 style={{ color:'#27ae60', marginLeft:'3%' ,marginRight:'3%' ,textAlign:'center'}}> All question answer about react JS  </h1>
               
               <div className="first-question">
                 <h1>what is the difference between props and state in react js ?</h1>
