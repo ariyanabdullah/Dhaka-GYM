@@ -6,7 +6,6 @@ import "./Container.css"
 const Container = () => {
   const [exercise, setExercise] = useState([]);
   const [lists,setLists]=useState([])
-  // const [break,setBreak]=useState(0)
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
@@ -47,7 +46,6 @@ const Container = () => {
 
 }
 
-
   // for get all the price of list
 
   let exerciseTime=0;
@@ -59,10 +57,6 @@ const Container = () => {
        exerciseTime=exerciseTime+newTime;
 
   }
-
-  // console.log(exerciseTime);
-
-
 
   return (
     <div className="main-container">

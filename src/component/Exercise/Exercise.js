@@ -2,9 +2,6 @@ import React from 'react';
 import "./Exercise.css";
 
 const Exercise = ({exercise,addTolist}) => {
-//    console.log(props);
-
-// console.log(addTolist)
    const {image, name, time, description } = exercise;
     return (
         <div className='exercise'>
