@@ -14,7 +14,7 @@ const Question = () => {
               </div>
               <div className="first-question">
                 <h1>what does useeffect  hook do in react?</h1>
-                <p> = </p>
+                <p> =The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. The second argument is optional. </p>
               </div>
         </div>
     );
