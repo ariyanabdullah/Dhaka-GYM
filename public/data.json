@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0001",
+    "name": "Swiming ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdOdrRwmJmsGO9-C9zlenwgIx6Eb5ek9dvdzBB92cv&s",
+    "description": "5 sets, 5 reps (rest 1-2 min.)",
+    "time": 10
+  },
+  {
+    "id": "0002",
+    "name": "Running on tredmill",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZsj-xLibbggi7X6sHgzAk2HOu4M-es63KTw&usqp=CAU",
+    "description": "7 sets, 5 reps (rest 1-2 min.)",
+    "time": 20
+  },
+  {
+    "id": "0003",
+    "name": "Barbell Shrugh",
+    "image": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "description": "5 sets, 5 reps (rest 1-2 min.)",
+    "time": 30
+  },
+  {
+    "id": "0004",
+    "name": "Dumble",
+    "image": "https://images.pexels.com/photos/3763115/pexels-photo-3763115.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "description": "2 sets, 8 reps (rest 30-45 sec.)",
+    "time": 40
+  },
+  {
+    "id": "0005",
+    "name": "Push Up",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-k2FFnsPyI3YPhRdQZhCrQOTq8WiYf_ORCg&usqp=CAU",
+    "description": "6 sets, 6 reps (rest 30-45 sec.)",
+    "time": 50
+  },
+  {
+    "id": "0006",
+    "name": "Rock",
+    "image": "https://images.pexels.com/photos/5327526/pexels-photo-5327526.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "description": "2 sets, 8 reps (rest 30-45 sec.)",
+    "time": 60
+  }
+]

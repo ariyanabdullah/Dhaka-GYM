@@ -1,0 +1,114 @@
+.cart-item {
+    position: sticky;
+    top: 39px;
+}
+
+.user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 12px 0;
+}
+
+.user-info h2 {
+    margin: 0;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.weight-h {
+    margin: 0;
+}
+
+.weight-p {
+    margin: 0;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 13px 2px;
+    margin: 23px 8px;
+    border-radius: 18px;
+}
+
+.breakTime {
+    margin-left: 16px;
+}
+
+.breakTime h3 {
+    margin: 0;
+}
+
+
+.break-btn-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 13px 2px;
+    margin: 23px 8px;
+    border-radius: 10px;
+}
+
+.break-btn {
+    border: none;
+    padding: 15px 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+.break-btn:hover {
+    background-color: #27ae60;
+    color: white;
+}
+
+.exersise-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 12px 13px;
+    padding: 5px 2px;
+    border-radius: 7px;
+}
+
+.exersise-time h4 {
+    margin: 0;
+    font-size: 23px;
+}
+
+.exersise-time small {
+    font-size: 14px;
+    color: #1f1d19;
+    font-weight: 600;
+}
+
+.tost-btn button {
+    margin-top: 14px;
+    width: 84%;
+    margin-left: 8%;
+    padding: 13px 12px;
+    margin-right: 8%;
+    border: none;
+    background-color: #27ae60;
+    font-size: 17px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.tost-btn button:hover {
+    background-color: #085729;
+}

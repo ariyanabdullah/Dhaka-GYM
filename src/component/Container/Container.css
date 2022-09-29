@@ -1,0 +1,40 @@
+.exercise {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 7px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.cart-container {
+    height: 60%;
+    background-color: #f6f6f6;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 999px) and (min-width: 600px) {
+    .exercise {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:672px) and (min-width: 300px) {
+    .exercise {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px 0px;
+        margin-bottom: 30px;
+    }
+}
